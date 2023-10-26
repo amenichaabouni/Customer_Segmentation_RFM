@@ -1,0 +1,120 @@
+.stApp .appview-container .main .block-container {
+    padding-top: 2rem;
+    padding-right: 4rem;
+    padding-left: 4rem;
+    padding-bottom: 2rem;
+}
+
+#MainMenu {
+    visibility: hidden;
+}
+
+/* Streamlit metric container styles */
+div[data-testid="metric-container"] {
+    background-color: white;
+    border: 3px solid rgba(36, 18, 91, 0.1);
+    padding: 5% 5% 5% 10%;
+    border-radius: 5px;
+    color: black;
+    overflow-wrap: break-word;
+}
+
+/* breakline for metric text */
+div[data-testid="metric-container"] > label[data-testid="stMetricLabel"] > div {
+    overflow-wrap: break-word;
+    white-space: break-spaces;
+    color: black;
+}
+
+/* Additional styles for your app design */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #b78ecc;
+    color: #333;
+}
+
+/* Container for the entire app */
+.container {
+    max-width: 1500px; /* Adjust max-width for a wider container */
+    margin: 0 auto;
+    padding: 20px;
+    height: 100vh; /* Adjust height for a taller container */
+}
+
+/* Header styles */
+.header {
+    background-color: #1C83E1;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.header h1 {
+    font-size: 36px;
+}
+
+/* Section title styles */
+.section-title {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Cadre style for graphs */
+.plot-container {
+    background-color: #fff;
+    border: 2px solid rgba(36, 18, 91, 0.1);
+    padding: 5% 5% 5% 5%;
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Metrics container styles */
+.metrics-container {
+    background-color: #fff;
+    border: 4px solid hsl(252, 55%, 31%);
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.metrics-container h2 {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+/* Button styles */
+.button {
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-align: center;
+    background-color: #1C83E1;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1)
+}
+
+.line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #000;
+    margin: 0 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1) /* Adding shadow */
+}
